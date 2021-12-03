@@ -1,0 +1,23 @@
+footer{
+        display: grid;
+        grid-template-rows: 100px;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        div{
+            a{
+                img{
+                    width: 10%;
+                }
+            }    
+        }
+}
+
+.gradientFooter{
+    background: linear-gradient(to top, rgb(255, 255, 255), #f7cfe5);
+}
+
+a:hover{
+    transform: translate(10px);
+    cursor: pointer;
+}

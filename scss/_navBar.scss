@@ -1,0 +1,26 @@
+header{
+    display: $grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: flex-end;
+    img{
+        width: $w-25;
+    }
+    div{
+        nav{
+            align-items: flex-end;
+            a{
+                color: $terciario;
+            }
+        }
+    }
+}
+
+.gradientNav{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #f7cfe5);
+}
+
+a:hover{
+    transform: translate(10px);
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+// Definimos varialbes globales
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+$primario: #f7cfe5;
+$secundario: rgb(245, 223, 223);
+$terciario: #131111;
+
+$flex: flex;
+
+$grid: grid;
+
+$w-10: 10%;
+$w-25: 25%;
+$w-40: 40%;
+$w-50: 50%;
+
+
+.grid{
+	display: grid;
+}

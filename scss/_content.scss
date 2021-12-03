@@ -1,0 +1,44 @@
+*{
+    background-color: $primario;
+}
+body{
+    color: $terciario;
+}
+
+main{
+    section{
+        article{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+        }
+    }
+}
+
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.h-auto{
+    height: auto;
+}
+
+.img{
+    border-radius: 25px 5px; 
+}
